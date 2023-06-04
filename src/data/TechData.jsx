@@ -1,62 +1,62 @@
 export const tech = [{
     id: 1,
-    img: '../assets/images/bootstrap.png',
+    img: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3ptceqeG8KtHHxoweCSlyRwGnA7F0lf8QuC8sKLW8cM_91cnk',
     title: 'Bootstrap',
    
   }, {
     id: 2,
-    img: '../assets/images/express.png',
-    title: 'Express Server',
+    img: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbNVU4mi9JSQIMM1IspUKqpm_zwGRz3Vi7KaHRw_RfDikSozvi',
+    title: 'Express Server NodeJS',
    
     
   }, {
     id: 3,
-    img: '../assets/images/firebase.png',
+    img: 'data:image/png;base64,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',
     title: 'Firebase',
    
   }, {
     id: 4,
-    img: '../assets/images/github.png',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM8UqJd1GQRar1b68cF5T8R5inPJrOcrXjjQ&usqp=CAU',
     title: 'Github',
    
   }, {
     id: 5,
-    img: '../assets/images/html.png',
+    img: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTS64m1c7lcDnKaMsB7OGeW7dZ3sXS6fg3XpGYK9D9F3XcAGQQL',
     title: 'HTML & CSS',
    
   }, {
     id: 6,
-    img: '../assets/images/javascript.png',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgHNwlGWc_8FdGh3eWdNhab2VNdKYtsN9et6zCU3AMrD5hbe-B',
     title: 'Javascript',
    
   }, {
     id: 8,
-    img: '../assets/images/laravel.png',
+    img: 'https://t2.gstatic.com/images?q=tbn:ANd9GcQOhcRCm8ToMX-oarR3Jdlbomwfx9H6iNP3k9GlrSfcQGOtzOaJ',
     title: 'Laravel',
    
   }, {
     id: 9,
-    img: '../assets/images/linux.jpg',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8U-y2DPSxEEovfdrGudlEb-cy9zmVEO3KFAAtFpo53w&usqp=CAU&ec=48665698',
     title: 'Linux',
    
   }, {
     id: 10,
-    img: '../assets/images/mysql.png',
+    img: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkag0pPovAETCsix9gIHjUpC8at4SSK3EYAr6UUoMJc9v7oe7n',
     title: 'MySQL DB',
    
   }, {
     id: 11,
-    img: '../assets/images/nodejs.png',
-    title: 'NodeJS',
+    img: 'data:image/png;base64,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',
+    title: 'MongoDB',
    
   }, {
     id: 12,
-    img: '../assets/images/php.png',
+    img: 'https://t1.gstatic.com/images?q=tbn:ANd9GcSyNUIF7ckFklay_20wzP0gekk7Spb-8ys4_7WLED9an-8z0LGt',
     title: 'PHP',
    
   }, {
     id: 13,
-    img: '../assets/images/react.jpeg',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8brqXUmE31fTDwlXSMEO5NzvKv9b1-RNJ8cfwKWX3GA&usqp=CAU&ec=48665698',
     title: 'React',
    
   }];
